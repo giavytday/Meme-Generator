@@ -1,0 +1,43 @@
+/* Add your CSS styles here */
+#memeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.meme {
+    border: 1px solid black;
+    margin: 10px;
+    position: relative;
+}
+
+.meme img {
+    width: 300px;
+}
+
+.meme .topText, .meme .bottomText {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.meme .topText {
+    top: 0;
+}
+
+.meme .bottomText {
+    bottom: 0;
+}
+
+.delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
